@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "plan": "terraform plan -out=besu-devnet",
+    "hardfork": "terraform plan -out=besu-fork",
+    "update": "terraform plan -out=besu-update"
+
+  }
+}
