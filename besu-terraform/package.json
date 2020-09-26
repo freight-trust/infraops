@@ -1,0 +1,23 @@
+{
+  "name": "besu-terraform",
+  "version": "1.0.0",
+  "description": "The following repo has example reference implementations of private networks on AWS and Azure. This is intended to get developers and ops people familiar with how to run a private ethereum network and understand the concepts involved.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PegaSysEng/besu-terraform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PegaSysEng/besu-terraform/issues"
+  },
+  "homepage": "https://github.com/PegaSysEng/besu-terraform#readme",
+  "dependencies": {
+    "terraform-npm": "^0.2.6"
+  }
+}
