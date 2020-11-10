@@ -1,7 +1,8 @@
  
 # Terraform
 
-The following repo has example reference implementations of private networks on AWS and Azure. This is intended to get developers and ops people familiar with how to run a private ethereum network and understand the concepts involved.
+The following repo has example reference implementations of private networks on AWS and Azure.
+
 
 Provisiong Besu on all nodes in these examples uses our [Ansible Galaxy role](https://galaxy.ansible.com/pegasyseng/hyperledger_besu). This makes it easy to upgrade, perform maintenance etc.
 
@@ -17,7 +18,6 @@ You get the following per setup:
 - 4 validators (bootnode, node-0, node-1 and node-2)
 - rpcnode
 - n nodes 
-
 
 The keys for the various nodes can be found under `ibft-4-validators/files/besu-ibft/` Please modify with as many nodes you would like to provision and increase the count in `variables.tf`
 
