@@ -14,9 +14,9 @@
 #
 
 export DEBIAN_FRONTEND=noninteractive
-SCRSUFFIX="_8.x"
-NODENAME="Node.js 8.x LTS Carbon"
-NODEREPO="node_8.x"
+SCRSUFFIX="12.x"
+NODENAME="Node.js 12.x LTS "
+NODEREPO="node_12.x"
 NODEPKG="nodejs"
 
 print_status() {
